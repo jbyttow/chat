@@ -1,0 +1,5 @@
+export const ADD_MESSAGE = 'ADD_MESSAGE'
+export const ADD_COMMAND = 'ADD_COMMAND'
+export const RECEIVE_APP_STATE = 'RECEIVE_APP_STATE'
+export const RECEIVE_MESSAGES = 'RECEIVE_MESSAGES'
+export const USER_LOGIN = 'USER_LOGIN'

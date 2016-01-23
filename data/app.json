@@ -1,0 +1,12 @@
+{
+  "commands": {
+    "giphy": {
+      "url": "http://api.giphy.com/v1/gifs/search?limit=1&fmt=json&api_key=dc6zaTOxFJmzC&",
+      "argumentPrefix": "q="
+    },
+    "cat-bomb": {
+      "url": "http://api.giphy.com/v1/gifs/search?limit=20&fmt=json&api_key=dc6zaTOxFJmzC&",
+      "argumentPrefix": "q="
+    }
+  }
+}

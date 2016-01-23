@@ -1,0 +1,86 @@
+$light-gray: #cccccc;
+
+$border-color: $light-gray;
+$box-color: #5a5a5a;
+$border-style: 1px solid;
+$navbar-width: 280px;
+$medium-light-gray: $light-gray;
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.chat__wrapper {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  padding-top: 55px;
+}
+
+.message {
+  padding: 0px 30px;
+  &:nth-child(even) {
+    background-color: white;
+  }
+  &:nth-child(odd) {
+    background-color: white;
+  }
+  &:hover { 
+    background-color: white; 
+  }
+}
+
+.messageBox {
+  position: relative;
+}
+
+.messageList {
+  overflow-y: scroll;
+  max-height: 90vh;
+}
+
+.messageAuthor {
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+.messageText {
+  padding: 2px 0;
+  margin: 0px;
+}
+
+.messageForm {
+  position: fixed;
+  bottom: 0;
+  width: 90vw;
+  padding: 20px;
+  input {
+    width: 100%;
+    border: 2px solid $light-gray;
+    border-radius: 5px;
+    height: 50px;
+    box-sizing: border-box;
+    font-size: 14px;
+    padding-left: 5px;
+  }
+
+  input::-webkit-input-placeholder {
+    font-size: 14px;
+  }
+
+  input:focus {
+    outline-color: transparent;
+    outline-style: none;
+  }
+}
+
+.roomList {
+  position: relative;
+  padding: 50px 0;
+  margin: 0;
+  li {
+    list-style-type: none;
+    padding: 1em 0;
+  }
+}
