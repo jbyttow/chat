@@ -14,7 +14,6 @@ const getMergedConversation = (state) => {
     }, [])
 }
 
-// kill these and access reducer stores directly
 export function getMessages(state) {
   return getMergedConversation(state.chat)
 }
